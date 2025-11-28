@@ -11,7 +11,7 @@
     그들의 목소리에서 <b>삶의 신호를 감지(Data-Driven Care)</b>합니다.<br/>
     <b>' 세상에서 가장 따뜻한 목소리로 단절된 마음을 </b>잇다. '
 
-[🌐 Live Demo](https://ai-care-call-web.vercel.app/) • [📚 API Docs](https://aicarecall-server-production.up.railway.app/docs) • [📖 Tech Specs](#️-시스템-아키텍처)
+[🌐 Live Demo](https://ai-care-call-web.vercel.app/) • [📚 API Docs](https://aicarecall-server-production.up.railway.app/docs) • [📖 Tech Specs](#️-시스템-아키텍처) •[📹 시연영상](https://youtu.be/EiZq421BZdk)
 
 </div>
 
