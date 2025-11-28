@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="1600" height="1600" alt="sori-symbol-512-animated" src="https://github.com/user-attachments/assets/86d8147d-4c79-4a21-a800-d1ca279f31d3" />
+<img width="512" height="512" alt="sori-logo" src="https://github.com/user-attachments/assets/c711cb5c-6e35-446e-b81f-46eb908a7fda" />
 
 # Sori(소리) AI
 
