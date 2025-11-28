@@ -125,10 +125,6 @@ AI가 1차 스크리닝, 인간은 위험군에 집중.
 
 
 ## 🌊 **핵심 서비스 흐름 (Service Flow)**
-<div align="center">
-  <!-- 여기에 실제 서비스 플로우 이미지나 GIF를 넣으세요 -->
-  <img src="https://via.placeholder.com/800x300/e0f2fe/1e3a8a?text=Sori+AI+Service+Flow" alt="Service Flow" />
-</div>
 
 #### **1. The Personalizer (맞춤형 온보딩)**
 *   보호자가 부모님의 건강 정보(지병, 투약), 관심사, 성격을 입력합니다.
