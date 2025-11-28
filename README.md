@@ -2,17 +2,63 @@
 
 > AI가 매일 어르신께 전화를 걸어 안부를 묻고, 보호자에게 리포트로 전달하는 케어 서비스
 
-## Links
+## 팀원
 
-| 구분          | 설명                      | URL                                                      |
-| ------------- | ------------------------- | -------------------------------------------------------- |
-| 🌐 **Web**    | 보호자용 대시보드         | https://sori-ai.vercel.app/                              |
-| 🔗 **API**    | Server API 문서 (Swagger) | https://aicarecall-server-production.up.railway.app/docs |
-| 📦 **GitHub** | Web Repository            | https://github.com/codyssey-PRISM/AICareCall-web         |
-| 📦 **GitHub** | Server Repository         | https://github.com/codyssey-PRISM/AICareCall-server      |
-| 📦 **GitHub** | iOS Repository            | https://github.com/codyssey-PRISM/AICareCall-mobile      |
+<table>
+<tr>
+<td align="center" width="25%">
+<a href="https://github.com/jaylovegood">
+<img src="https://github.com/jaylovegood.png" width="100px;" alt="jaylovegood"/><br />
+<sub><b>@jaylovegood</b></sub>
+</a>
+</td>
+<td align="center" width="25%">
+<a href="https://github.com/stevenkim18">
+<img src="https://github.com/stevenkim18.png" width="100px;" alt="stevenkim18"/><br />
+<sub><b>@stevenkim18</b></sub>
+</a>
+</td>
+<td align="center" width="25%">
+<a href="https://github.com/newcode99">
+<img src="https://github.com/newcode99.png" width="100px;" alt="newcode99"/><br />
+<sub><b>@newcode99</b></sub>
+</a>
+</td>
+<td align="center" width="25%">
+<a href="https://github.com/x0cloud69">
+<img src="https://github.com/x0cloud69.png" width="100px;" alt="x0cloud69"/><br />
+<sub><b>@x0cloud69</b></sub>
+</a>
+</td>
+</tr>
+</table>
+
+## 🔗 Links
+
+| 🌐 서비스         | 설명                                             | URL                                                                  | 배포                                                                                                   |
+| ----------------- | ------------------------------------------------ | -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| **Web Dashboard** | 보호자용 대시보드 (통화 리포트, 통계, 일정 관리) | [sori-ai.vercel.app](https://sori-ai.vercel.app/)                    | ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)    |
+| **API Server**    | FastAPI 기반 백엔드 (Swagger 문서)               | [API Docs](https://aicarecall-server-production.up.railway.app/docs) | ![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=flat-square&logo=railway&logoColor=white) |
+
+> [!TIP]
+> 📱 **iOS 앱 배포 상태**
+>
+> iOS 앱은 애플 앱스토어 심사 절차가 진행 중입니다. 심사 승인 후 곧 다운로드 가능하도록 준비하고 있습니다!
+>
+> 테스트하고 싶으신 분은 아래 Github 소스 코드를 다운 받아 Xcode에서 실행하실 수 있습니다.
+
+| 📦 Repository | 주요 기술 스택                        | 설명                                      | 링크                                                          |
+| ------------- | -------------------------------- | ----------------------------------------- | ------------------------------------------------------------- |
+| **Web**       | Next.js, TypeScript, TailwindCss | 보호자용 웹 대시보드 프론트엔드           | [GitHub](https://github.com/codyssey-PRISM/AICareCall-web)    |
+| **Server**    | FastAPI, PostgreSQL, APScheduler | AI 통화 스케줄링 및 APNs 푸시 백엔드      | [GitHub](https://github.com/codyssey-PRISM/AICareCall-server) |
+| **iOS**       | Swift, SwiftUI, TCA              | 어르신용 AI 통화 iOS 앱 (CallKit/PushKit) | [GitHub](https://github.com/codyssey-PRISM/AICareCall-mobile) |
 
 ---
+
+> [!IMPORTANT]
+> 💡 **각 플랫폼의 전체 소스 코드는 위의 GitHub Repository 링크를 통해 확인하실 수 있습니다!**
+>
+> 현재 레포지토리는 전체 프로젝트의 문서화 및 아키텍처 설명을 위한 메인 README입니다.
 
 ## 소개
 
@@ -30,30 +76,29 @@
 
 ## 기술 스택
 
-### iOS
+### Web
 
-- **Swift / SwiftUI**
-- **TCA (The Composable Architecture) 1.23.1**
-- **CallKit / PushKit** - VoIP 푸시 및 시스템 전화 UI
-- **Vapi iOS SDK** - AI 음성 통화
+- **Next.js 16 / React 19**
+- **TypeScript**
+- **Tailwind CSS**
+- **Shadcn**
+- **Zustand** - 상태 관리
 
 ### Server
 
-- **Python 3.13 / FastAPI**
+- **Python / FastAPI**
 - **SQLAlchemy / PostgreSQL**
 - **APNs (HTTP/2)** - iOS 푸시 알림
 - **APScheduler** - 예약 통화 스케줄러
 - **Vapi Server SDK** - AI 음성 통화 연동
 - **SendGrid** - 이메일 인증
 
-### Web
+### iOS
 
-- **Next.js 16 / React 19**
-- **TypeScript**
-- **Tailwind CSS**
-- **Radix UI**
-- **Zustand** - 상태 관리
-
+- **Swift / SwiftUI**
+- **TCA (The Composable Architecture)** - Swift 단방향 아키택처
+- **CallKit / PushKit** - VoIP 푸시 및 시스템 전화 UI
+- **Vapi iOS SDK** - AI 음성 통화
 ---
 
 ## 프로젝트 구조
